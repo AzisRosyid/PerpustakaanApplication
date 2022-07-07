@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PerpustakaanApplication</string>
+    <string name="book_title">Book Title</string>
+    <string name="author">Author</string>
+    <string name="book_pages">Book Pages</string>
+    <string name="pages">Pages</string>
+    <string name="book_language">Book Language</string>
+    <string name="language">Language</string>
+    <string name="book_category">Book Category</string>
+    <string name="category">Category</string>
+    <string name="book_author">Book Author</string>
+    <string name="book_description">Book Description</string>
+    <string name="detail_information">Detail Information</string>
+    <string name="title">Title</string>
+    <string name="about">About</string>
+    <string name="azis_rosyid">Azis Rosyid</string>
+    <string name="azisrosyid321_gmail_com">azisrosyid321@gmail.com</string>
+</resources>
