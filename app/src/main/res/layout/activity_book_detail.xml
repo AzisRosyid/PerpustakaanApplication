@@ -94,7 +94,7 @@
                     android:textColor="@color/black_500"
                     app:layout_constraintStart_toEndOf="@id/tvTitle"
                     app:layout_constraintTop_toTopOf="@id/tvTitle"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginEnd="16dp"
                     android:layout_marginStart="68dp"/>
@@ -125,7 +125,7 @@
                     android:textColor="@color/black_500"
                     app:layout_constraintStart_toStartOf="@id/title"
                     app:layout_constraintTop_toTopOf="@id/tvAuthor"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="@id/title"/>
 
                 <View
@@ -155,7 +155,7 @@
                     android:textColor="@color/black_500"
                     app:layout_constraintStart_toStartOf="@id/title"
                     app:layout_constraintTop_toTopOf="@id/tvCategory"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="@id/title"/>
 
                 <View
@@ -185,7 +185,7 @@
                     android:textColor="@color/black_500"
                     app:layout_constraintStart_toStartOf="@id/title"
                     app:layout_constraintTop_toTopOf="@id/tvLanguage"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="@id/title"/>
 
                 <View
@@ -215,7 +215,7 @@
                     android:text="@string/book_pages"
                     app:layout_constraintStart_toStartOf="@id/language"
                     app:layout_constraintTop_toTopOf="@id/tvPages"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="@id/title"/>
 
 
@@ -268,7 +268,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
-                    android:textSize="13sp"
+                    android:textSize="15sp"
                     app:layout_constraintTop_toBottomOf="@id/tvDescription"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"/>

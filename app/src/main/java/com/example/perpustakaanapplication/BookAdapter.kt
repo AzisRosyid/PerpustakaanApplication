@@ -3,8 +3,10 @@ package com.example.perpustakaanapplication
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.example.perpustakaanapplication.databinding.AdapterBookBinding
 
 class BookAdapter(val listBook: ArrayList<Book>, val onItemClickCallback: OnItemClickCallback): RecyclerView.Adapter<BookAdapter.ViewHolder>() {
@@ -21,7 +23,10 @@ class BookAdapter(val listBook: ArrayList<Book>, val onItemClickCallback: OnItem
 
         Glide.with(holder.itemView)
             .load(listBook[position].photo)
+            .override(holder.binding.image.maxWidth)
             .into(holder.binding.image)
+
+//        holder.binding.image.setImageResource(book.photo)
 
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(book)

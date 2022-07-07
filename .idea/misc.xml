@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alex_Carl/AndroidStudioProjects/PerpustakaanApplication/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.2065" />
         <entry key="..\:/Users/Alex_Carl/AndroidStudioProjects/PerpustakaanApplication/app/src/main/res/layout/activity_about.xml" value="0.33" />
         <entry key="..\:/Users/Alex_Carl/AndroidStudioProjects/PerpustakaanApplication/app/src/main/res/layout/activity_book_detail.xml" value="0.33" />
         <entry key="..\:/Users/Alex_Carl/AndroidStudioProjects/PerpustakaanApplication/app/src/main/res/layout/activity_book_view.xml" value="0.33" />
